@@ -76,5 +76,6 @@ def winner(board)
   #return "X" if X wins
   #return "O" if O wins
   win_result = won?(board)
+  winner = board[win_result[0]]
   binding.pry
 end
