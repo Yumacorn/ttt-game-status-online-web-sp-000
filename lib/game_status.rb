@@ -80,5 +80,5 @@ def winner(board)
   if win_result != nil
     winner = board[win_result[0]]
   end
-  win_result
+  winner
 end
